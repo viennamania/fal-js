@@ -8,7 +8,7 @@ fal.config({
 });
 
 type ErrorProps = {
-  error: any;
+  error: Error | null;
 };
 
 function Error(props: ErrorProps) {
